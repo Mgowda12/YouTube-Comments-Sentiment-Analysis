@@ -4,7 +4,7 @@ from googleapiclient.discovery import build
 from textblob import TextBlob
 
 # Set up YouTube API
-API_KEY = 'AIzaSyDqtbvQbi5Z8GDb-MaKVLm4BL4vnp5_VgM'  # Replace with your YouTube API key
+API_KEY = 'YOUTUBE_API_KEY'  # Replace with your YouTube API key
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 
